@@ -19,7 +19,7 @@ select{
 html{width:100%;height:100%;left:0;top:0;margin:0;padding:0;position:fixed;}
 body{position:fixed;overflow:hidden!important;width:100%;height:100%;margin:0;padding:0!important;-ms-transform:translate(0);border:0;left:0;top:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
 .tmpContainer{position:fixed;width:100%;height:100%;bottom: 0;top:0;left:0;display:block;z-index:-1;}
-.bookContainer{position:absolute;width:100%;height:100%;z-index:2;top:0;left:0;display:block;overflow:hidden;}
+.bookContainer{position:absolute;width:100%;height:100%;z-index:99999;top:0;left:0;display:block;overflow:hidden;}
 /*//book object*/
 img{-webkit-user-drag:none;}
 p{margin:0;padding:0;}
@@ -30,7 +30,7 @@ h1, h1, h2, h3, h4, h5, h6{font-weight:normal;}
 i,u{font-style:normal;text-decoration:none;}
 .book{
 	position : absolute;
-	z-index : 2;
+	z-index : 99999;
 	cursor : default;
 }
 
